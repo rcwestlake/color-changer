@@ -12,7 +12,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .btn {
@@ -42,6 +42,24 @@ body {
   outline: none;
 }
 
+.switch-container {
+  float: right;
+  margin-right: 20px;
+}
+
+.switch-button {
+  border-radius: 10%;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-size: 10px;
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
 /*Cool Styles
 .cool {
   border-radius: 100%;
@@ -62,6 +80,8 @@ body {
   color: white;
   border: white;
 }*/
+
+/*Responsive Styles*/
 
 @-ms-viewport{
   width: device-width;
