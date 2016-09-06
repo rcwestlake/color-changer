@@ -38,7 +38,7 @@ button:hover {
   border-right: 8px solid #e5b6d5;
 }
 
-button:active {
+button:focus {
   outline: none;
 }
 
