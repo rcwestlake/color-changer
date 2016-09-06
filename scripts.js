@@ -7,6 +7,10 @@ $('.reset-button').on('click', function(){
   resetColor();
 });
 
+$('.switch-button').on('click', function(){
+  
+});
+
 function generateRandomNum() {
   return Math.floor(Math.random() * (16 - 0) + 0);
 }
