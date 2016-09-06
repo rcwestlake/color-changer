@@ -6,12 +6,13 @@ body {
   width: 100vw;
 }
 
-.buttons {
+.buttons-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .btn {
@@ -21,7 +22,7 @@ body {
   border-bottom: 9px solid #b2479a;
   border-left: 9px solid #cc7fb5;
   border-right: 9px solid #cc7fb5;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 2px;
   height: 100px;
   width: 250px;
@@ -66,8 +67,12 @@ body {
   width: device-width;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 620px) {
+  .buttons-container {
+    flex-direction: column;
+  }
   .reset-button {
     height: 60px;
+    font-size: 25px;
   }
 }
