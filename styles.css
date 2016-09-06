@@ -43,7 +43,10 @@ button:focus {
 }
 
 .switch-container {
-  float: right;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
   margin-right: 20px;
 }
 
@@ -58,12 +61,12 @@ button:focus {
   width: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .switch-button:hover {
   background-color: #f39c12;
 }
-
 
 /*Cool Styles*/
 .cool {

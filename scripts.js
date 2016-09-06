@@ -9,6 +9,7 @@ $('.reset-button').on('click', function(){
 $('.switch-button').on('click', function(){
   $('.btn').toggleClass('cool');
   $('.switch-button').toggleClass('reset').text('Switch Back');
+  $('.no-responsive').toggleClass('reset-button');
 });
 
 function generateRandomNum() {
