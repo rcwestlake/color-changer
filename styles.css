@@ -38,48 +38,56 @@ body {
   border-right: 9px solid #e5b6d5;
 }
 
-.btn:focus {
+button:focus {
   outline: none;
 }
 
 .switch-container {
-  float: right;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
   margin-right: 20px;
 }
 
 .switch-button {
   border-radius: 10%;
-  background-color: #3498db;
+  background-color: #f1c40f;
   border: none;
   color: white;
   font-size: 10px;
+  font-weight: bold;
   height: 50px;
   width: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
+.switch-button:hover {
+  background-color: #f39c12;
+}
 
-/*Cool Styles
+/*Cool Styles*/
 .cool {
   border-radius: 100%;
   border: none;
-  background-color: salmon;
+  background-color: #c0392b;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 20px;
   text-transform: uppercase;
-  height: 100px;
-  width: 100px;
-  margin: 30px;
+  height: 150px;
+  width: 150px;
+  margin-right: 30px;
 }
 
 .cool:hover {
   transition: all;
   transition-duration: 0.5s;
-  background-color: #0e83cd;
+  background-color: #e74c3c;
   color: white;
   border: white;
-}*/
+}
 
 /*Responsive Styles*/
 
