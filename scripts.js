@@ -1,4 +1,3 @@
-
 $('.random-button').on('click', function(){
   changeColor('body');
 });
@@ -8,8 +7,11 @@ $('.reset-button').on('click', function(){
 });
 
 $('.switch-button').on('click', function(){
-  
+  $('button').addClass('cool');
+  $('.switch-button').text('Switch Back').addClass('reset');
 });
+
+$('.reset')
 
 function generateRandomNum() {
   return Math.floor(Math.random() * (16 - 0) + 0);
