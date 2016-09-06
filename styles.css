@@ -6,37 +6,39 @@ body {
   width: 100vw;
 }
 
-.buttons {
+.buttons-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-button {
+.btn {
   background-color: #e5b6d5;
   color: #ffffff;
-  border-top: 8px solid #b2479a;
-  border-bottom: 8px solid #b2479a;
-  border-left: 8px solid #cc7fb5;
-  border-right: 8px solid #cc7fb5;
-  font-size: 15px;
+  border-top: 9px solid #b2479a;
+  border-bottom: 9px solid #b2479a;
+  border-left: 9px solid #cc7fb5;
+  border-right: 9px solid #cc7fb5;
+  font-size: 30px;
+  letter-spacing: 2px;
   height: 100px;
-  width: 200px;
+  width: 250px;
   margin: 30px;
   text-transform: uppercase;
 }
 
-button:hover {
+.btn:hover {
   background-color: #b2479a;
-  border-top: 8px solid #cc7fb5;
-  border-bottom: 8px solid #cc7fb5;
-  border-left: 8px solid #e5b6d5;
-  border-right: 8px solid #e5b6d5;
+  border-top: 9px solid #cc7fb5;
+  border-bottom: 9px solid #cc7fb5;
+  border-left: 9px solid #e5b6d5;
+  border-right: 9px solid #e5b6d5;
 }
 
-button:focus {
+.btn:focus {
   outline: none;
 }
 
@@ -60,3 +62,17 @@ button:focus {
   color: white;
   border: white;
 }*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (max-width: 620px) {
+  .buttons-container {
+    flex-direction: column;
+  }
+  .reset-button {
+    height: 60px;
+    font-size: 25px;
+  }
+}
