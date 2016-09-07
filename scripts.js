@@ -29,6 +29,12 @@ function changeColor(html) {
   $(html).css('backgroundColor', color);
 }
 
+function anythingButWhite() {
+  while (color === '#FFFFFF') {
+    random = generateRandomNum();
+  }
+}
+
 function resetColor() {
   $('body').css('backgroundColor', 'white');
 }
